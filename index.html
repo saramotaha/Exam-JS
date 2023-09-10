@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_rateYo_2.3.2_jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="upArrow position-fixed"><i class="fa-solid fa-arrow-up rounded-circle text-white"></i></div>
+    <div class="loaders justify-content-center align-items-center">
+        <span class="loader"></span>
+    </div>
+    <nav class="list position-fixed d-flex">
+       <div class="p-3 d-flex flex-column justify-content-between vh-100 sideBar">
+        <ul >
+            <li class="wow p-2 my-2 text-white" id="NowPlaying">Now Playing</li>
+            <li class="wow p-2 my-2 text-white" id="popular">Popular</li>
+            <li class="wow p-2 my-2 text-white" id="TopRated">Top Rated</li>
+            <li class="wow p-2 my-2 text-white" id="trending">Trending</li>
+            <li class="wow p-2 my-2 text-white" id="upComing">Upcoming</li>
+            <li class="wow p-2 my-2" id="ContactWith"><a href="#contactUs" class="wow text-decoration-none " >Contact Us</li>
+        </ul>
+        <div class="information">
+            <div class="socialMedia">
+                <i class="fa-brands fa-facebook-f text-white ms-3 me-3"></i>
+                <i class="fa-brands fa-twitter  text-white me-3"></i>
+                <i class="fa-solid fa-globe  text-white "></i>
+            </div>
+            <p class="text-muted  mt-3"> Copyright © 2022 All Rights <br> Reserved.</p>
+            <p class="text-muted "> Created by <a class="text-decoration-none text-danger" href="https://github.com/Develekko" target="_blank">Housam Ramadan</a></p>
+        </div>
+       </div>
+       <div class="links p-3 d-flex flex-column justify-content-between ">
+        <p><i class="fa-solid fa-igloo fa-xl "></i></p>
+        <!-- <p><i class="fa-solid fa-xmark fa-xl text-center close"></i></p> -->
+        <i class="fa-solid fa-align-justify fa-xl text-center close"></i>
+        <div>
+            <p><i class="fa-solid fa-globe fa-xl "></i></p>
+            <p><i class="fa-solid fa-share-nodes fa-xl "></i></p>
+        </div>
+        
+        
+        
+       </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="search w-100 mt-5 mb-4 d-flex justify-content-center">
+            <input type="search" name="search" id="search" class="searchInput w-50 text-white border border-2 border-white p-2 rounded-pill bg-transparent" placeholder="  Search...">
+        </div>
+
+        <div class="row main">    
+
+        </div>
+         
+        <div class="row contact g-4 my-5" id="contactUs">
+
+                <h2 class="text-white">Contact Us</h2>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input type="text" name="name" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="Enter Your Name" id="name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input type="email" name="email" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="Enter Your Email" id="email">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input type="text" name="phone" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="Enter Your Phone" id="phone">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input  type="text" name="age" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="Enter Your Age" id="age">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input type="password" name="password" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="Enter Your Password" id="password">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <input type="password" name="reEnterPassword" class="w-100 fs-5 border-0  border-bottom bg-transparent text-white  enInput" placeholder="ReEnter Password" id="reEnterPassword">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="err text-danger fs-4 text-center">
+                    </div>
+                </div>
+                <button class="rounded-3 w-auto py-2 px-3 ms-2 border-0 submit">Submit</button>
+
+        
+        </div>
+
+
+
+        
+        
+        
+    </div>
+
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_rateYo_2.3.2_jquery.rateyo.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
